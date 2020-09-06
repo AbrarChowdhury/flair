@@ -1,0 +1,20 @@
+.Navbar{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    text-align: center;
+    .logo{
+        font-size: 26px;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .nav{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .auth{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
